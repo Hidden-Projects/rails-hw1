@@ -34,6 +34,12 @@ web development there is a lot of doc reading to learn new libraries.
 - For Q3 you might want to check out
 [Ruby's string interpolation] (https://en.wikipedia.org/wiki/String_interpolation#Ruby).
 
+- To open the ruby interpreter to help debug call the 'irb' command in your terminal on the h1.rb
+file
+```
+irb hw1.rb
+```
+
 ## How to check your Answers
 In the base directory of this repo run 'ruby autograder.rb'.
 
