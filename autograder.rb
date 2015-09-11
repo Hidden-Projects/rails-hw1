@@ -33,4 +33,4 @@ check_squared_sum
 check_sort_array
 check_combine_name
 
-puts 'All answers work!'
+puts 'All functions work!'
