@@ -29,6 +29,15 @@ def check_combine_name
   puts 'Q3 Success!'
 end
 
+def check_blockin_time
+  input = ["1", "2", "3", "4", "5", "10"]
+  first_output = blockin_time  input
+  second_output = blockin_time input
+  raise "Expected baz to compute 10, got #{ first_output } for input #{ input }." unless first_output == 10
+  raise "Expected baz to compute 10, got #{ second_output } for input #{ input }." unless first_output == 10
+  puts 'Q4 Success!'
+end
+
 check_squared_sum
 check_sort_array
 check_combine_name

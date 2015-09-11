@@ -21,6 +21,25 @@ combine_name 'Howard', 'Chen'
  => 'Howard Chen'
 ```
 
+## Q4
+It's blockin' time!
+
+In hw1.rb we defined a function called blockin_time that requires the foobar.rb file, and then calls
+a class method 'baz' from the Foobar class.
+
+If you take a look at the foobar.rb, you'll see that we've defined Foobar.
+Write a class function in foobar.rb called baz that takes in an array of integers as strings,
+changes each string into an integer, adds two to each number, keeps the even numbers only, takes out
+any duplicates, rejects the resulting numbers greater than ten, and returns the sum of the resulting
+array.
+
+
+For example:
+
+["1", "2", "3", "4", "5", "10"] returns 10. ((2+2) + (4+2)) = 10.
+
+["1", "2", "2", "2", "3", "4", "5", "10"] also returns 10.
+
 ## Challenge
 - All these functions can be written in 1 line and under 40 characters.  Do this if you want an extra
 challenge.
